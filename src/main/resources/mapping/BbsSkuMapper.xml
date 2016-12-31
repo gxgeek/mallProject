@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gx.core.dao.BbsSkuMapper">
+
+	<!-- 通用查询结果列-->
+	<sql id="Base_Column_List">
+		 id, product_id AS productId, color_id AS colorId, size, delive_fee AS deliveFee, sku_price AS skuPrice, stock_inventory AS stockInventory, sku_upper_limit AS skuUpperLimit, location, sku_img AS skuImg, sku_sort AS skuSort, sku_name AS skuName, market_price AS marketPrice, create_time AS createTime, update_time AS updateTime, create_user_id AS createUserId, update_user_id AS updateUserId, last_status AS lastStatus, sku_type AS skuType, sales
+	</sql>
+
+</mapper>

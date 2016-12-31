@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gx.core.dao.BbsOrderMapper">
+
+	<!-- 通用查询结果列-->
+	<sql id="Base_Column_List">
+		 id, oid, deliver_fee AS deliverFee, payable_fee AS payableFee, total_price AS totalPrice, payment_way AS paymentWay, payment_cash AS paymentCash, delivery, isConfirm, is_paiy AS isPaiy, state, create_date AS createDate, note, buyer_id AS buyerId
+	</sql>
+
+</mapper>
